@@ -1,0 +1,13 @@
+{% extends 'layout.twig' %}
+
+{% block body %}
+<div class="container">
+    <div class="google-profile">
+        <p><i class="fa fa-google fa-4"></i></p>
+        <p><span>Username: {{user.username}}</span></p>
+        <p><span>Display Name: {{user.name}}</span></p>
+        <p><span>Email: {{user.email}}</span></p>
+    </div>
+</div>
+    
+{% endblock body %}
